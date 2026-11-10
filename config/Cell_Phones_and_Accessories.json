@@ -1,0 +1,16 @@
+{
+  "slug": "phones",
+  "category": "Cell_Phones_and_Accessories",
+  "device_word": "devices",
+  "ecosystems": {
+    "Apple": "iphone|ipad|airpods|apple|magsafe|iwatch",
+    "Samsung": "galaxy|samsung"
+  },
+  "query_types": [
+    ["other_brand", "pixel|one ?plus|1\\+|\\b1 ?plas|\\bmot\\b|moto|motorola|\\blg\\b|stylo|huawei|xiaomi|redmi|redimi|nokia|tcl|alcatel|\\bzte\\b|blu\\b|kyocera|garmin|honor|xperia|sony|\\blg ?k\\d|lgk\\d"],
+    ["samsung", "galaxy|samsun|\\bnote ?\\d|\\bs\\d{1,2}\\b|\\ba\\d{2}e?\\b|\\bz ?flip|\\bz ?fold"],
+    ["apple", "i ?phone|ipad|ipod|airpods|apple|magsafe|iwatch|\\b1[1-5] ?(?:pro|mini|max)\\b|\\bx[rs]\\b|\\bxs ?max\\b|xrphone|\\b[6-8] ?plus\\b|\\b[6-8]s\\b|\\bse 20[12]\\d\\b"]
+  ],
+  "segment_names": {"0": "Frequent multi-device buyers", "1": "Budget hunters",
+                    "2": "Apple premium mainstream", "3": "Samsung loyalists"}
+}

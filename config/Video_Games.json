@@ -1,0 +1,37 @@
+{
+  "slug": "video_games",
+  "category": "Video_Games",
+  "device_word": "gaming platforms",
+  "ecosystems": {
+    "PlayStation": "playstation|\\bps[2-5]\\b|ps vita|psvr|dualsense|dualshock|\\bsony\\b",
+    "Xbox": "xbox|kinect",
+    "Nintendo": "nintendo|\\bswitch\\b|joy-?con|\\bwii\\b|\\b[23]ds\\b|gamecube|amiibo|game ?boy",
+    "PC": "\\bpc\\b|steam deck|windows|gaming (?:mouse|keyboard|headset)"
+  },
+  "query_types": [
+    [
+      "pc",
+      "\\bpc\\b|steam|windows"
+    ],
+    [
+      "nintendo",
+      "nintendo|\\bswitch\\b|joy-?con|\\bwii\\b|\\b[23]ds\\b|gamecube|amiibo|game ?boy"
+    ],
+    [
+      "xbox",
+      "xbox|kinect|\\b360\\b|xbox one|\\bxb1\\b"
+    ],
+    [
+      "playstation",
+      "playstation|\\bps[2-5]\\b|ps vita|psvr|dualsense|dualshock|\\bpsn\\b"
+    ]
+  ],
+  "segment_names": {
+    "0": "PlayStation players",
+    "1": "Frequent multi-platform buyers",
+    "2": "Xbox players",
+    "3": "PC gaming gear enthusiasts",
+    "4": "Budget Nintendo buyers",
+    "5": "Nintendo loyalists"
+  }
+}
