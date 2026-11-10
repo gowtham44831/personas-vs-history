@@ -72,3 +72,11 @@ If you use this code, please cite the paper (preprint link to be added).
 ## License
 
 MIT (code only). The Amazon datasets are subject to their own terms.
+
+## Recommendations for practitioners
+
+How companies can check and adopt this approach: see [RECOMMENDATIONS.md](RECOMMENDATIONS.md).
+
+## Recommendations for practitioners
+
+How companies can check and adopt this approach: see [RECOMMENDATIONS.md](RECOMMENDATIONS.md).
